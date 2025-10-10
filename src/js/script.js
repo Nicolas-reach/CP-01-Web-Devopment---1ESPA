@@ -83,3 +83,14 @@ let n7 = 8.5;
 // Calculando a média
 let media = (n1 + n2 + n3 + n4 + n5 + n6 + n7) / 7;
 console.log("A média das notas é: " + media);
+
+
+
+
+// Tranformando float em int
+
+// Declarando uma variável float
+let f = 3.14;
+
+// Convertendo usando parseInt
+console.log(parseInt(f));
