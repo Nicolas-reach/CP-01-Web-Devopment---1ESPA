@@ -94,3 +94,14 @@ let f = 3.14;
 
 // Convertendo usando parseInt
 console.log(parseInt(f));
+
+
+
+
+// Convertendo string para float
+
+// Declarando uma string com número decimal
+let g = "tenho 3.140 reais";
+
+// Convertendo usando parseFloat
+console.log(parseFloat(g));
