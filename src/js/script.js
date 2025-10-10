@@ -25,3 +25,30 @@ console.log(y != z);
 
 // y é maior ou igual a 10
 console.log(y >= 10);
+
+
+
+
+// programa de calcular IMC (Índice de Massa Corporal)
+
+// peso em kg
+let peso = 90;
+
+// altura em metros
+let altura = 1.75;
+
+// calculo do IMC
+let imc = peso / (altura * altura);
+
+// Switch case para classificar o IMC
+switch (true) {
+    case (imc < 18.5):
+        console.log("Você está abaixo do peso ideal");
+        break;
+    case (imc >= 18.5 && imc < 24.9):
+        console.log("Você está no peso ideal");
+        break;
+    case (imc >= 25 && imc < 29.9):
+        console.log("Você está acima do peso ideal");
+        break;
+}
