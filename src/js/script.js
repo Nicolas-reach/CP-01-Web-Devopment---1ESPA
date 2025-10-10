@@ -65,3 +65,21 @@ let i = 0;
 for (i = 0; i <= 50; i++) {
     console.log(i);
 }
+
+
+
+
+// Calculando a média de alunos
+
+// Declarando as notas dos alunos
+let n1 = 7.5;
+let n2 = 8.0;
+let n3 = 6.5;
+let n4 = 9.0;
+let n5 = 5.5;
+let n6 = 7.0;
+let n7 = 8.5;
+
+// Calculando a média
+let media = (n1 + n2 + n3 + n4 + n5 + n6 + n7) / 7;
+console.log("A média das notas é: " + media);
