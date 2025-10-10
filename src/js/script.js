@@ -52,3 +52,16 @@ switch (true) {
         console.log("Você está acima do peso ideal");
         break;
 }
+
+
+
+
+// Repetição até 50 usando for
+
+// Inicialização da variável de controle
+let i = 0;
+
+// Laço de repetição com a condição e incremento
+for (i = 0; i <= 50; i++) {
+    console.log(i);
+}
