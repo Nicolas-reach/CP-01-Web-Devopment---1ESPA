@@ -2,12 +2,17 @@
 Projeto de Desenvolvimento de programas
 
 ## Contexto do Projeto 
-Este projeto tem como proposta desenvolver programas
-para a resolução de exercícios no contexto de uma vinharia.
+Este projeto tem como objetivo o **desenvolvimento de programas** voltados para a **resolução de exercícios no contexto de uma vinheria**, aplicando conceitos aprendidos na disciplina de **Web Development**.  
+
+A proposta é integrar a lógica de programação com situações reais de uma vinheria, explorando estruturas, funções e boas práticas de desenvolvimento em JavaScript.
 
 ## Autores 
 O projeto foi realizado pleos seguintes alunos:
-Enrico Dellatorre da Fonseca, 
-Leonardo Batista de Souza, 
-Nicolas Forcione de Oliveira, 
-Sobre orientação do Profº Wellington Cidade Silva Tenorio, de Web Development.
+- Enrico Dellatorre da Fonseca 
+- Leonardo Batista de Souza 
+- Nicolas Forcione de Oliveira
+
+Orientação  
+**Professor:** Wellington Cidade Silva Tenorio  
+**Disciplina:** Web Development  
+**Turma:** 1ESPA 
