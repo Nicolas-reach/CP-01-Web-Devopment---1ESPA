@@ -71,24 +71,23 @@ for (i = 0; i <= 50; i++) {
 // 5 - Verificação de Login
 
 // Usuário e senha cadastrados
-let usuario = "admin";
-let senha = "1234";
+const USUARIO = "admin";
+const SENHA = "1234";
 
 // Entrada de dados
-let usuario = prompt("Digite o nome de usuário:");
-let senha = prompt("Digite a senha:");
+const usuarioInformado = prompt("Digite o nome de usuário:");
+const senhaInformada = prompt("Digite a senha:");
 
-// Verificação com switch
+// Verificação (switch ou if)
 switch (true) {
-    case (usuario === usuario && senha === senha):
-        console.log("Login realizado com sucesso!");
-        alert("Login realizado com sucesso!");
-        break;
-
-    default:
-        console.log("Falha na autenticação! Usuário ou senha incorretos.");
-        alert("Falha na autenticação! Usuário ou senha incorretos.");
-        break;
+  case (usuarioInformado === USUARIO && senhaInformada === SENHA):
+    console.log("Login realizado com sucesso!");
+    alert("Login realizado com sucesso!");
+    break;
+  default:
+    console.log("Falha na autenticação! Usuário ou senha incorretos.");
+    alert("Falha na autenticação! Usuário ou senha incorretos.");
+    break;
 }
 
 
