@@ -8,9 +8,9 @@ A proposta é integrar a lógica de programação com situações reais de uma v
 
 ## Autores 
 O projeto foi realizado pleos seguintes alunos:
-- Enrico Dellatorre da Fonseca 
-- Leonardo Batista de Souza 
-- Nicolas Forcione de Oliveira
+- Enrico Dellatorre da Fonseca - RM566824
+- Leonardo Batista de Souza - RM568558
+- Nicolas Forcione de Oliveira - RM566998
 
 Orientação  
 **Professor:** Wellington Cidade Silva Tenorio  
