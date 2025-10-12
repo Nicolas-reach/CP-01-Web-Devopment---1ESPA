@@ -1,4 +1,4 @@
-// como declarar uma variavel undefined, com valor e sem valor
+// 1 - Como declarar uma variavel undefined, com valor e sem valor
 
 // Váriavel sem valor
 let x;
@@ -15,7 +15,7 @@ console.log(z);
 
 
 
-// Como usar o operador os operadores( != , ==, >= ) em JavaScript. Operadores booleanos.
+// 2 - Como usar o operador os operadores( != , ==, >= ) em JavaScript. Operadores booleanos.
 
 // x é igual à undefined
 console.log(x == undefined);
@@ -29,7 +29,7 @@ console.log(y >= 10);
 
 
 
-// programa de calcular IMC (Índice de Massa Corporal)
+// 3 - Programa de calcular IMC (Índice de Massa Corporal)
 
 // peso em kg
 let peso = 90;
@@ -55,7 +55,20 @@ switch (true) {
 
 
 
-// Verificação de Login
+
+// 4 - Repetição até 50 usando for
+
+// Inicialização da variável de controle
+let i = 0;
+
+// Laço de repetição com a condição e incremento
+for (i = 0; i <= 50; i++) {
+    console.log(i);
+}
+
+
+
+// 5 - Verificação de Login
 
 // Usuário e senha cadastrados
 let usuario = "admin";
@@ -80,20 +93,8 @@ switch (true) {
 
 
 
-// Repetição até 50 usando for
 
-// Inicialização da variável de controle
-let i = 0;
-
-// Laço de repetição com a condição e incremento
-for (i = 0; i <= 50; i++) {
-    console.log(i);
-}
-
-
-
-
-// Calculando a média de alunos
+//  6 - Calculando a média de alunos
 
 // Declarando as notas dos alunos
 let n1 = 7.5;
@@ -110,8 +111,19 @@ console.log("A média das notas é: " + media);
 
 
 
+// 7 - Declarando a variável como string
+let valor = "123.45";
 
-// Tranformando float em int
+// Convertendo a variável para float
+let valorFloat = parseFloat(valor);
+
+// Tipo da variável
+console.log("O valor convertido é:" + valorFloat);
+console.log("O tipo da variável é:" + typeof valorFloat);
+
+
+
+// 8 - Tranformando float em int
 
 // Declarando uma variável float
 let f = 3.14;
@@ -121,8 +133,7 @@ console.log(parseInt(f));
 
 
 
-
-// Convertendo string para float
+// 9 - Convertendo string para float
 
 // Declarando uma string com número decimal
 let g = "tenho 3.140 reais";
